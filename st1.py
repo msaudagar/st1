@@ -39,7 +39,7 @@ temps = [50, 100, 150, 200, 250]
 comps = [50, 100, 150, 200, 250]
 
 
-comps = [1, 2, 3, 4]
+comps = [1, 2, 3, 4, 5]
 compstxt = ['Methane', 'Ethane', 'Propane', 'Ethylene']
 result_matrix = calc_cps(comps, temps)
 print(result_matrix)
