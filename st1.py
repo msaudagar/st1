@@ -71,13 +71,13 @@ print("Line graph: ")
 # plt.show()
 # plt.plot(temps, result_matrix[0])
 
-# fig1, ax = plt.subplots()
-# for series in result_matrix:
-#     plt.plot(temps, series)
+fig1, ax = plt.subplots()
+for series in result_matrix:
+    plt.plot(temps, series)
 
-# plt.xlabel("Temperature, C")
-# plt.ylabel("Cp, J/(mol-K)")
-# plt.title("Cp of Hydrocarbon Gases")
+plt.xlabel("Temperature, C")
+plt.ylabel("Cp, J/(mol-K)")
+plt.title("Cp of Hydrocarbon Gases")
 
 
-# st.pyplot(fig1)
+st.pyplot(fig1)
