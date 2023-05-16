@@ -1,7 +1,7 @@
 import help_funcs as hf
 import props  # props contains functions for gas properties calculations
 import pandas as pd
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import numpy as np
 
 import streamlit as st
@@ -69,14 +69,15 @@ print("Line graph: ")
 # for series in result_matrix:
 #   plt.plot(temps, series)
 # plt.show()
-fig1, ax = plt.subplots()
 # plt.plot(temps, result_matrix[0])
-for series in result_matrix:
-    plt.plot(temps, series)
 
-plt.xlabel("Temperature, C")
-plt.ylabel("Cp, J/(mol-K)")
-plt.title("Cp of Hydrocarbon Gases")
+# fig1, ax = plt.subplots()
+# for series in result_matrix:
+#     plt.plot(temps, series)
+
+# plt.xlabel("Temperature, C")
+# plt.ylabel("Cp, J/(mol-K)")
+# plt.title("Cp of Hydrocarbon Gases")
 
 
-st.pyplot(fig1)
+# st.pyplot(fig1)
