@@ -12,7 +12,7 @@ import streamlit as st
 # st.write("And this is some regular text.")
 
 
-st.title(":red[Gas Properties]")
+st.title(":blue[Gas Properties]")
 st.header("Cp at Various Temperatures")
 
 
